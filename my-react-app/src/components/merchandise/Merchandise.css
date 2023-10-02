@@ -1,0 +1,84 @@
+
+.title {
+  padding: 30px;
+  width: 750px;
+  margin: 0 auto; 
+  text-align: center;
+}
+.merch {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .merch .title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+  }
+  
+  .merchList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .merchItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 370px;
+    margin: 30px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .merchItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .merchItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .merchItem h1,
+  .merchItem p {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .addToCart-btn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+    
+  }
+
+  .addToCart-btn {
+    display: block; 
+    margin: 0 auto; 
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: white; 
+    cursor: pointer;
+    background-color: aquamarine;
+
+  }

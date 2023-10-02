@@ -1,0 +1,63 @@
+/* * {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+} */
+
+.l-wrapper {
+    width: 500px; 
+    height: 330px;
+    padding: 2rem 1rem;
+    margin: 100px auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    margin-top: 1.2rem;
+}
+
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    
+}
+
+.l-btn {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: white; 
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.l-btn:hover {
+    background-color:black;
+}
+
+input:focus {
+    border: 1px solid rgba(192, 192, 192)
+}
+
+.member {
+    font-size: 0.8rem;
+    margin: 1.4rem;
+    color: #636363;
+    
+}
